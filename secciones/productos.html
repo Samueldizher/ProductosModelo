@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+            <!--Link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+            <!--Link de CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+            <!--Fuente monserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+
+    
+</head>
+<body>
+    
+        <!--Navbar principal vertical-->
+        <div class="ContenedorEncabezado">
+            <div class="d-flex align-items-start">
+                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link"  href="../index.html" >Home</a>
+                  <a class="nav-link" href="#productos" >Productos</a>
+                  <a id="botonCarritoProd" class="nav-link" style="cursor: pointer;">Carrito </a>
+                </div>
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"></div>
+                  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"></div>
+                  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"></div>
+                </div>
+              </div>
+    
+              <img class="LogoAinbev" src="../imagenes/LogoAbinbev.png" alt="LogoAbinbev">
+              <img class="LogoModelo" src="../imagenes/LogoGrupoModelo.png" alt="LogoGrupoModelo">
+    
+        </div>
+
+
+        <div id="botonAgregarProducto" class="botonAgregarProducto" style="cursor:pointer;">
+            <a >Agregar Producto</a>
+        </div>
+
+<div class="grid" id="grid">
+
+        <div class="gridEspacio">
+          <img src="../imagenes/barril29Lts.jpg" alt="">
+          <h2>202108001</h2>
+          <h3>Barril 29 lts</h3>
+          <h5>Cantidad</h5>
+          <h4>Peso K:</h4>
+          <h6>40</h6>
+
+          <div class="inputGrid">
+            <input type="number" class="cantidadInput">
+          </div>
+  
+          <div id="botonAgregarAcarrito" class="botonAgregar">
+            <h4 class="textoBotonAgregar">Agregar</h4>
+          </div>
+        </div>
+
+        <div class="gridEspacio">
+          <img src="../imagenes/CartoMega1.2Lts.jpg" alt="">
+          <h2>202108002</h2>
+          <h3>Carton Mega 1.2 lts 12 botellas.</h3>
+          <h5>Cantidad</h5>
+          <h4>Peso K:</h4>
+          <h6>50</h6>
+
+          <div class="inputGrid">
+            <input type="number" class="cantidadInput">
+          </div>
+
+          <div id="botonAgregarAcarrito" class="botonAgregar">
+            <h4 class="textoBotonAgregar">Agregar</h4>
+          </div>
+        </div>
+
+        <div class="gridEspacio">
+          <img src="../imagenes/CartonFamiliar940ml.png" alt="">
+          <h2>202108003</h2>
+          <h3>Carton familiar 940ml 12 botellas</h3>
+          <h5>Cantidad</h5>
+          <h4>Peso K:</h4>
+          <h6>45</h6>
+
+          <div class="inputGrid">
+            <input type="number" class="cantidadInput">
+          </div>
+
+          <div id="botonAgregarAcarrito" class="botonAgregar">
+            <h4 class="textoBotonAgregar">Agregar</h4>
+          </div>
+        </div>
+
+        <div class="gridEspacio">
+          <img src="../imagenes/CartonBotella355ml.png.crdownload" alt="">
+          <h2>202108004</h2>
+          <h3>Carton Botella 355ml 24 botellas.</h3>
+          <h5>Cantidad</h5>
+          <h4>Peso K:</h4>
+          <h6>58</h6>
+
+          <div class="inputGrid">
+            <input type="number" class="cantidadInput">
+          </div>
+
+          <div id="botonAgregar" class="botonAgregar">
+            <h4 class="textoBotonAgregar">Agregar</h4>
+          </div>
+        </div>
+
+        <div class="gridEspacio">
+          <img src="../imagenes/CartonBotella210ml.jpg" alt="">
+          <h2>202108005</h2>
+          <h3>Carton Botella 210ml 24 botellas.</h3>
+          <h5>Cantidad</h5>
+          <h4>Peso K:</h4>
+          <h6>42</h6>
+
+          <div class="inputGrid">
+            <input type="number" class="cantidadInput">
+          </div>
+
+          <div id="botonAgregar" class="botonAgregar">
+            <h4 class="textoBotonAgregar">Agregar</h4>
+          </div>
+        </div>
+
+        <div class="gridEspacio">
+          <img src="../imagenes/CharolaLaton473ml.jpg" alt="">
+          <h2>202108006</h2>
+          <h3>Charola Laton 473ml 24 latas. </h3>
+          <h5>Cantidad</h5>
+          <h4>Peso K:</h4>
+          <h6>35</h6>
+
+
+          <div class="inputGrid">
+            <input type="number" class="cantidadInput">
+          </div>
+
+          <div id="botonAgregar" class="botonAgregar">
+            <h4 class="textoBotonAgregar">Agregar</h4>
+          </div>
+        </div>
+      
+        <div class="gridEspacio">
+          <img src="../imagenes/CharolaLata355ml.jpg" alt="">
+          <h2>202108007</h2>
+          <h3>Charola Lata victoria 355ml 24 latas. </h3>
+          <h5>Cantidad</h5>
+          <h4>Peso K:</h4>
+          <h6>57</h6>
+
+          <div class="inputGrid">
+            <input type="number" class="cantidadInput">
+          </div>
+
+          <div id="botonAgregar" class="botonAgregar">
+            <h4 class="textoBotonAgregar">Agregar</h4>
+          </div>
+        </div>
+      
+        <div class="gridEspacio">
+          <img src="../imagenes/CharolaLata355ModeloEsp.jpg" alt="">
+          <h2>202108008</h2>
+          <h3>Charola Lata ModeloEsp 355ml 24 latas. </h3>
+          <h5>Cantidad</h5>
+          <h4>Peso K:</h4>
+          <h6>55</h6>
+
+          <div class="inputGrid">
+            <input type="number" class="cantidadInput">
+          </div>
+
+          <div id="botonAgregar" class="botonAgregar">
+            <h4 class="textoBotonAgregar">Agregar</h4>
+          </div>
+        </div>
+
+
+
+
+</div>
+
+
+<!-- MODAL Agregar productos-->
+
+<div id = "modalAgregarproducto" class="modalAgregarproducto invisible">
+  <div class="ContenidoModalAgregar">
+
+    <img src="../imagenes/Ejemplo.png" alt="">
+    <div>
+      <h2>Agregar nuevo producto </h2>
+    </div>
+
+    <div>
+      <h5>SKU: </h5>
+      <input type="text" id="sku">
+    </div>
+
+    <div>
+      <h5>Nombre de producto: </h5>
+      <input type="text" id="nombreProducto">
+    </div>
+
+    <div>
+      <h5>Peso: </h5>
+      <input type="text" id="pesoProducto">
+    </div>
+
+    <div class="botonesModal">
+      <div id="botonCancelar" class="botonCancelar">
+        <h6>Cancelar</h6>
+      </div>
+      <div id="botonGuardar" class="botonGuardar">
+        <h6>Guardar</h6>
+      </div>
+  </div>
+  </div>
+</div>
+
+
+
+    <!-- MODAL producto guardado-->
+
+    <div id="modalProductoConfirmado" class="modalProductoConfirmado invisible">
+      <div class="contenidoModalConfirmar">
+          <h2>Producto Agregado</h2>
+          <P>Ahora podras visualizar tu producto en la vista principal</P>
+
+          <div id="botonAceptar" class="botonAceptar">
+            <h6>Aceptar</h6>
+          </div>
+
+      </div>
+
+
+    </div>
+
+
+        <!-- MODAL error guardado NULL-->
+        <div id = "modalErrorGuardadoNull" class="modalErrorGuardado invisible">
+
+          <div class="ContenidoModalErrorGuardado">
+        
+            <img src="../imagenes/Alerta.png" alt="">
+            <div>
+              <h2>Por favor ingrese todos los datos.</h2>
+            </div>
+  
+            <div id="botonAceptarErrorNull" class="botonAceptarError">
+              <h6>Aceptar</h6>
+            </div>
+          </div>
+          </div>
+
+        <!-- MODAL error guardado SKU-->
+      <div id = "modalErrorGuardadoSKU" class="modalErrorGuardado invisible">
+
+        <div class="ContenidoModalErrorGuardado">
+      
+          <img src="../imagenes/Alerta.png" alt="">
+          <div>
+            <h2>El codigo SKU debe ser de 9 digitos.</h2>
+          </div>
+
+          <div id="botonAceptarErrorSKU" class="botonAceptarError">
+            <h6>Aceptar</h6>
+          </div>
+        </div>
+        </div>
+
+      <!-- MODAL error guardado nombre-->
+      <div id = "modalErrorGuardadoNombre" class="modalErrorGuardado invisible">
+
+        <div class="ContenidoModalErrorGuardado">
+      
+          <img src="../imagenes/Alerta.png" alt="">
+          <div>
+            <h2>El nombre no puede exceder 70 caracteres.</h2>
+          </div>
+
+          <div id="botonAceptarErrorNombre" class="botonAceptarError">
+            <h6>Aceptar</h6>
+          </div>
+        </div>
+        </div>
+
+        <!-- MODAL error guardado peso-->
+        <div id = "modalErrorGuardadoPeso" class="modalErrorGuardado invisible">
+
+          <div class="ContenidoModalErrorGuardado">
+        
+            <img src="../imagenes/Alerta.png" alt="">
+            <div>
+              <h2>El peso solo puede ir a dos digitos.</h2>
+            </div>
+  
+            <div id="botonAceptarErrorPeso" class="botonAceptarError">
+              <h6>Aceptar</h6>
+            </div>
+          </div>
+          </div>
+
+
+          <!--Modal error producto repetido-->
+
+          <div id = "modalErrorProductoRepetido" class="modalErrorGuardado invisible">
+
+            <div class="ContenidoModalErrorGuardado">
+          
+              <img src="../imagenes/Alerta.png" alt="">
+              <div>
+                <h2>El producto ya se encuentra en existencia.</h2>
+              </div>
+    
+              <div id="botonAceptarProductoRepetido" class="botonAceptarError">
+                <h6>Aceptar</h6>
+              </div>
+            </div>
+            </div>
+
+
+
+          <!--carrito-->
+          <div id="carrito" class="carrito invisible">
+
+            <div id="contenidoCarrito" class="contenidoCarrito">
+              <h2>carrito</h2>
+              <img src="../imagenes/carrito.png" alt="">
+
+            <div class="encabezadosCarrito">
+              <h6>Nombre</h6>
+              <h6>SKU</h6>
+              <h6>Peso</h6>
+              <h6>Cantidad</h6>
+            </div>
+
+            
+            <div id="productosCarrito" class="productosCarrito">
+
+<!--              <div class="producto">
+                <h3 class="nombreProductoCarrito">ProductoProductoProductoProductoProductoProductoProductoProductoProduc</h3>
+                <h4>123456789</h4>
+                <h5 class="pesoProductoCarrito">18953</h5>
+                <h6 class="cantidadProductoCarrito">1986</h6>
+                <img class="basureroCarrito" src="../imagenes/basurero.png" alt="">
+              </div>
+
+-->
+
+            </div>
+
+
+              <div id="botonera">
+                <div class="totalCantidad">
+                  <h4>Total Cantidad: </h4>
+                  <h5 id="totalCantidad" >0</h5>
+                </div>
+                <div class="totalPeso">
+                  <h4>Total Peso: </h4>
+                  <h5 id="totalPeso" >0</h5>
+                </div>
+                  <div id="botonCamionizar" class="botonCamionizar">
+                    <h6>Camionizar</h6>
+                  </div>
+                  <div id="botonCerrarCarrito" class="botonCerrarCarrito">
+                    <h6>Cancelar</h6>
+                  </div>
+              </div>
+
+
+            </div>
+
+          </div>
+
+
+
+                <!-- MODAL error agregar carrito-->
+      <div id = "modalErrorInputVacio" class="modalErrorGuardado invisible">
+
+        <div class="ContenidoModalErrorGuardado">
+      
+          <img src="../imagenes/Alerta.png" alt="">
+          <div>
+            <h2>No puedes agregar productos vacios.</h2>
+          </div>
+
+          <div id="botonAceptarErrorInputVacio" class="botonAceptarError">
+            <h6>Aceptar</h6>
+          </div>
+        </div>
+      </div>
+
+
+          <!-- MODAL producto Agregado a carrito-->
+
+    <div id="modalProductoConfirmadoCarrito" class="modalProductoConfirmadoCarrito invisible">
+      <div class="contenidoModalConfirmadoCarrito">
+          <h2>Producto Agregado a carrito</h2>
+
+          <div id="botonAceptarCarrito" class="botonAceptar">
+            <h6>Aceptar</h6>
+          </div>
+
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="../js/agregarProducto.js"></script>
+      <script src="../js/modales.js"></script>
+      <script src="../js/camionizar.js"></script>
+
+</body>
+</html>

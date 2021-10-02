@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to left, #3052F1, white);
+}
+
+@import "encabezado.scss";
+@import "cuerpoPrincipal.scss";
+@import "footer.scss";
+@import "productos.scss";
+@import "gridProductos.scss";
+@import "modales";
+@import "carrito";
